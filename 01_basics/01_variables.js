@@ -1,3 +1,7 @@
+// ecmascript - tc39.es have the original proposal of js and all the new features are added in js after approval of tc39 committee
+
+// mdm is also a documentation of js which is created by mozilla and it is also a good source to learn js
+
 const accountId = 123456789 // fixed value, cannot be changed
 let email = "gourav123@gmail.com" // can be changed
 var password = "gourav@123" // can be changed
