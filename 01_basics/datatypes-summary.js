@@ -30,3 +30,20 @@ const myfunction = function () {
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ****************************************************
+
+// Stack (Primitive), Heap (Non-primitive)
+let myname = "gourav" // stored in stack
+
+let anothername  = myname // anothername is also stored in stack and it is a copy of myname
+anothername = "gourav12"
+
+console.log(anothername) 
+console.log(myname) 
+
+let user1 = {
+    email : "user@gmail.com",
+    upi : "usesr@upi"
+}
